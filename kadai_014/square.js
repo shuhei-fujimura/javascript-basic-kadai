@@ -1,4 +1,4 @@
 const keisan =(kazu) => {
-    console.log(kazu * kazu);
+    return kazu * kazu;
 }
-keisan(10);
+console.log(keisan(10));
